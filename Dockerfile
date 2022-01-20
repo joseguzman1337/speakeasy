@@ -1,6 +1,6 @@
 # Copyright (C) 2020 FireEye, Inc. All Rights Reserved.
 
-FROM python:3.8-alpine as base
+FROM python:3.9-alpine as base
 
 # Use this base to build and install everything (this will bloat the size of this build image)
 FROM base as builder
